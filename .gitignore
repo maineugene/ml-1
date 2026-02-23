@@ -40,9 +40,6 @@ MANIFEST
 .ipynb_checkpoints
 *.ipynb
 
-# raw data - don't upload
-/data/raw/
-
 # OS files
 .DS_Store
 Thumbs.db
