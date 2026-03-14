@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 def print_df_info(df):
     print("=" * 50)
@@ -33,7 +34,6 @@ def analyze_missing(df):
     })
     missing_df = missing_df[missing_df['Missing'] > 0]
     return missing_df
-
 
 def clean_df(df):
     df_clean = df.copy()
